@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#parentDiv{
+    border-radius:15px ;
+    width:300px;
+    height:500px;
+    background-color: rgb(78, 78, 96);
+}
+#title{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+    padding: 2px;
+    border-bottom:10px solid black;
+}
+#genderDiv{
+    padding-left: 2px;
+    width: auto;
+    display: flex;
+    gap: 10px;
+    height: 100px;
+    margin-top: 5px;
+    }
+#genderDiv>button{
+    background-color: rgb(78, 78, 96);
+    border:2px solid grey;
+    height: 120px;
+    width: 170px;
+    padding: 5px;
+border-radius: 10px;
+    cursor: pointer;
+}
+#male::after{
+    content: "Male:";
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin-top:10px ;
+}
+#female::after{
+    content: "Male:";
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin-top:10px ;
+}
+#heightSelector{
+    margin-top: 30px;
+    width: auto;
+    height: 100px;
+    background-color:rgb(138, 138, 154)
+}
+#heightSelector>h3{
+    text-align: center;
+    padding-top: 5px;
+}
+#heightSelector>p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#heightSelector>input{
+    margin-left: 10px;
+    width: 90%;
+}
+#waParentDiv{
+    width: auto;
+    display: flex;
+    margin-top: 10px;
+}
+#weightDiv{
+    width: 150px;
+    height:150px;
+    background-color:rgb(138, 138, 154);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#ageDiv{
+    width: 150px;
+    height:150px;
+    background-color:rgb(138, 138, 154);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#plus,#ageplus
+{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+#weightDiv>p{
+    margin-top: 10px;
+    font-size: 40px;
+}
+#ageDiv>p{
+    margin-top: 10px;
+    font-size: 40px;
+}
+#calBtn{
+    width: auto;
+    height:70px;
+    background-color: crimson;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

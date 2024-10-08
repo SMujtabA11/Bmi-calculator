@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="parentDiv">
+       <h1 id="title">BMI Calculator</h1>
+      <div id="genderDiv">
+            <button id="male"><img src="./assests/images-removebg-preview.png" alt="" height="70px" ></button>
+            <button id="female"><img src="./assests/images__1_-removebg-preview.png" alt="" height="70px" ></button>
+        </div>
+           <div id="heightSelector">
+            <h3>Height</h3>
+            <p id="heightOutput">0</p>
+            <input type="range" min="0" max="500" value="0" id="rangeSlider">
+        </div>
+        <div id="waParentDiv">
+            <div id="weightDiv">
+                <h3>Weight</h3>
+                <p id="weightOutput">0</p>
+                <button id="plus"><img src="./assests/plus.png" alt="" height="20px"></button>
+                <button id="minus"><img src="./assests/minus.png" alt=""  height="20px"></button>
+            </div>
+            <div id="ageDiv">
+                <h3>Age</h3>
+                <p id="ageOutput">0</p>
+                <button id="ageplus"><img src="./assests/plus.png" alt=""  height="20px"></button>
+                <button id="ageminus"><img src="./assests/minus.png" alt=""  height="20px"></button>
+            </div>
+        </div>
+        <div id="calBtn">
+            <h1>Calculate</h1>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
